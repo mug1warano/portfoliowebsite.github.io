@@ -1,0 +1,71 @@
+:root {
+  --dark: #212529;
+  --gray-dark: #343a40;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --light: #f8f9fa;
+  --text: #fff;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+
+.display-4 span {
+  color: var(--orange);
+}
+
+.navbar a {
+  color: var(--light);
+}
+
+/* jumbotron */
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 7rem;
+  background-color: var(--dark);
+  color: var(--text);
+}
+
+/* about section */
+#about {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+/* project section*/
+#project {
+  background-color: var(--gray-dark);
+  color: var(--light);
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.textdecor {
+  text-decoration: none;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+/* contact */
+#contact {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+/* footer */
+footer {
+  background-color: var(--dark);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  color: var(--light);
+}
+
+footer a {
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: none;
+}
